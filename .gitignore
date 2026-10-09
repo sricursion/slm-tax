@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# External clones (see README for setup)
+external/
+
+# Scratch
+*.tmp
+
+# Generated datasets (regenerable by seed)
+data/*.jsonl
+
+# Secrets
+.env
+
+# Model binaries stay on disk, not in git
+artifacts/**/*.safetensors
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Local research materials not part of the public release
+artifacts/
+reports/
+docs/*
+!docs/oracle-notes.md
+paper/main.*
+paper/paper*.tex
+paper/paper*.pdf
+paper/figures/*.png
+paper/figures/*.json
+
+# Paper not included in the public release
+paper/

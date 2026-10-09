@@ -1,0 +1,12 @@
+[project]
+name = "slm-tax"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lxml>=6.1.1",
+    "policyengine-us>=1.768.5",
+    "requests>=2.34.2",
+    "transformers>=5.13.1",
+]
